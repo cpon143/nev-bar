@@ -45,6 +45,7 @@ li:hover,
     display: flex;
     justify-content: space-between;
     background-color: hsl(25, 100%, 94%);
+    box-shadow: 0 0 10px 4px hsl(25deg 47% 88%);
     height: 4rem;
 }
 
@@ -92,8 +93,8 @@ li:hover,
 .nev-option  {
      text-align: -webkit-center;
 }
-.active{
-    margin-bottom: 10px;
+.nev-option li{
+    margin-top: 15px;
 }
 
 * {
@@ -133,6 +134,7 @@ ul {
     background-color:hsl(25, 100%, 94%);;
     padding: 12px 0;
     position: relative;
+    box-shadow: 0 0 10px 4px hsl(25deg 47% 88%)
 }
 
 
@@ -148,7 +150,7 @@ ul {
 
 .header .nav ul li {
     display: inline-block;
-    margin-left: 40px;
+    /* margin-left: 40px; */
 }
 
 .header .nav ul li a {
@@ -162,8 +164,12 @@ ul {
 
 .header .nav ul li a:hover,
 .header .nav ul li a.active {
-    color: #ffffff;
+    color: black;
 }
+
+/* .header .nav ul li a{
+    margin-bottom: 1rem;
+} */
 
 .header #nav-check {
     position: absolute;
@@ -232,7 +238,7 @@ ul {
         left: 0;
         top: 100%;
         width: 100%;
-        background-color: var(--color-1);
+        background-color:#cbe4cdb3;
         border-top: 1px solid rgba(255, 255, 255, 0.2);
         opacity: 0;
         visibility: hidden;
@@ -240,7 +246,7 @@ ul {
 
     .header .nav ul li {
         display: block;
-        margin: 0;
+        /* margin: 0; */
     }
 
     .header #nav-check:checked~.nav {
