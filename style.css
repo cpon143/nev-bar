@@ -82,9 +82,14 @@ li:hover,
     width: 28%;
 }
 
-:root {
-    --color-1: #673ab7;
+.cart-icon:hover, .user-icon:hover{
+    cursor: pointer;
 }
+
+:root {
+    --color-1: #673ab7; 
+}
+
 /* ******************************************************************************************* */
 /* body {
     line-height: 1.5;
